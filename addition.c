@@ -16,8 +16,7 @@ int main()
     }
 
     sum = firstDigit + lastDigit;
+    
+    printf("The sum of the first and last digits: %d\n", sum);
 
-    printf("The first digit is: %d\n", firstDigit);
-    printf("The last digit is: %d\n", lastDigit);
-    printf("The e sum of the first and last digits: %d\n", sum);
 }
