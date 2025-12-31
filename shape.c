@@ -38,7 +38,7 @@ int main()
         {
             printf("  ");
         }
-        for (int l = 5; l >= h; l--)
+        for (int l = h; l <= 5; l++)
         {
             printf("%d ", l);
         }
@@ -138,4 +138,5 @@ int main()
         }
         printf("\n");
     }
+
 }
